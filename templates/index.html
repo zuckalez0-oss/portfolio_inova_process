@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Portfólio de Desenvolvimento Industrial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Link para o Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="/projetos">Projetos</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+                <div class="hero">
+            <canvas id="hero-background-canvas"></canvas> <!-- Adicione o canvas aqui -->
+            <div class="hero-content"> <!-- Conteúdo existente dentro de um novo div -->
+                <h1>Matheus Ribeiro</h1>
+                <p>Especialista em Otimização e Automação de Processos Industriais com Python</p>
+                <p>Transformando a indústria através de soluções inteligentes e eficientes.</p>
+                <a href="/projetos" class="button">Ver Meus Projetos</a>
+            </div>
+        </div>
+        <!-- Adicione este script ANTES do fechamento do </body> -->
+        <script src="{{ url_for('static', filename='js/network_effect.js') }}"></script>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Com mais de 6 anos de atuação direta na indústria, sou apaixonado por criar soluções que otimizam o fluxo de trabalho, reduzem custos e aumentam a produtividade.</p>
+            <p>Minha expertise abrange desde a integração de sistemas SCADA/PLCs até o desenvolvimento de dashboards de monitoramento e ferramentas de análise de dados, tudo isso com a robustez e flexibilidade que Python e o ambiente Linux (incluindo Termux para prototipagem e Edge Computing) podem oferecer.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Minhas Habilidades</h2>
+            <p class="section-description">Ferramentas e tecnologias que utilizo para desenvolver soluções robustas e eficientes para a indústria.</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i> <!-- Ícone de Código -->
+                    <h3 class="skill-title">Linguagens de Programação</h3>
+                    <p class="skill-description">Python (Flask, FastAPI, Pandas, NumPy), SQL, Bash Scripting</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-industry skill-icon"></i> <!-- Ícone de Indústria -->
+                    <h3 class="skill-title">Automação Industrial</h3>
+                    <p class="skill-description">OPC UA, Modbus TCP/RTU, MQTT, PLC (Siemens, Rockwell)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i> <!-- Ícone de Banco de Dados -->
+                    <h3 class="skill-title">Banco de Dados</h3>
+                    <p class="skill-description">PostgreSQL, SQLite, MySQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud skill-icon"></i> <!-- Ícone de Nuvem -->
+                    <h3 class="skill-title">Cloud & IoT</h3>
+                    <p class="skill-description">AWS IoT, Azure IoT Hub (prototipagem)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools skill-icon"></i> <!-- Ícone de Ferramentas -->
+                    <h3 class="skill-title">Ferramentas de Desenvolvimento</h3>
+                    <p class="skill-description">Git, Docker, Termux, Linux</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram skill-icon"></i> <!-- Ícone de Projeto -->
+                    <h3 class="skill-title">Metodologias</h3>
+                    <p class="skill-description">Agile, DevOps Básico, SCRUM</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Inova Process. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

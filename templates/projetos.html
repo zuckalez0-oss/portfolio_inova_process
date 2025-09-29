@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Seu Nome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="/projetos">Projetos</a></li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects-list">
+            <h2>Meus Projetos</h2>
+            <div class="project-grid">
+                {% for projeto in projetos %}
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/' + projeto.imagem) }}" alt="{{ projeto.titulo }}">
+                    <h3>{{ projeto.titulo }}</h3>
+                    <p class="project-sector">{{ projeto.setor }}</p>
+                    <p>{{ projeto.descricao }}</p>
+                    <a href="{{ projeto.link_detalhes }}" class="button small-button">Detalhes</a>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Inova Process. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</
