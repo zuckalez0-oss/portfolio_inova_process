@@ -27,7 +27,7 @@ def projetos():
             'descricao': 'Script Python para automação do processo de análise de montantes e diagonais de treliças, o processo era feito manualmente antes e com esse script foi possivel ter um ganho significativo de tempo e redução dos erros humanos.',
             'imagem1': 'projeto2.png',
             'link_detalhes': 'https://github.com/zuckalez0-oss/analisador-de-trelicas'
-        }
+        },
         {
             'titulo': 'App para extração de lista de materiais do mCalc',
             'setor': 'Engenharia',
