@@ -24,6 +24,7 @@
                 {% for projeto in projetos %}
                 <div class="project-card">
                     <img src="{{ url_for('static', filename='img/projeto1.png') }}" alt="{{ projeto.titulo }}">
+                    <img src="{{ url_for('static', filename='img/projeto2.png') }}" alt="{{ projeto.titulo }}">
                     <h3>{{ projeto.titulo }}</h3>
                     <p class="project-sector">{{ projeto.setor }}</p>
                     <p>{{ projeto.descricao }}</p>
