@@ -34,6 +34,13 @@ def projetos():
             'descricao': 'Script Python para automação do processo de extração dos dados do arquivo lista de materiais do Mcalc, consolidando os dados e retornando para um planilha, antes o processo era manual e com esse script permitiu um ganho significativo de tempo no fluxo de trabalho também reduzindo os erros de digitação. .',
             'imagem1': 'projeto3.png',
             'link_detalhes': 'https://github.com/zuckalez0-oss/Analisador_Lista_Material'
+        },
+        {
+            'titulo': 'Script para atribuição de Layers em arquivos DXF',
+            'setor': 'Engenharia',
+            'descricao': 'Script Python para automação do processo de atribuição de layers em desenhos emitidos pelo mCalc, seguindo um padrão estabelecido, com apenas poucos cliques é possivel atribuir as layers seguindo o padrão desejado.',
+            'imagem1': 'projeto4.png',
+            'link_detalhes': 'https://github.com/zuckalez0-oss/Layers_e_Cotas'
         }
     ]
     return render_template('projetos.html', projetos=meus_projetos)
