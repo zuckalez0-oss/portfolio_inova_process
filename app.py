@@ -38,7 +38,7 @@ def projetos():
         {
             'titulo': 'Script para atribuição de Layers em arquivos DXF',
             'setor': 'Engenharia',
-            'descricao': 'Script Python para automação do processo de atribuição de layers em desenhos emitidos pelo mCalc, seguindo um padrão estabelecido, com apenas poucos cliques é possivel atribuir as layers seguindo o padrão desejado.',
+            'descricao': 'Script Python para automação do processo de atribuição de layers em desenhos emitidos pelo mCalc, com apenas poucos cliques é possivel atribuir as layers seguindo o padrão desejado.',
             'imagem1': 'projeto4.png',
             'link_detalhes': 'https://github.com/zuckalez0-oss/Layers_e_Cotas'
         }
