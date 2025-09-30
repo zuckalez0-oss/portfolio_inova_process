@@ -18,14 +18,14 @@ def projetos():
             'titulo': 'Gerador de desenhos DXF para formas simples',
             'setor': 'Engenharia',
             'descricao': 'Um app para geração de DXF e PDF, otimizando o fluxo de trabalho permitindo criação de multiplos desenhos de formas simples com poucos cliques, tirando a necessidade da utilização do Software CAD para criação desses desenhos.',
-            'imagem': 'projeto1.png',
+            'imagem1': 'projeto1.png',
             'link_detalhes': 'https://github.com/zuckalez0-oss/gerador_de_desenhos_pdf' # Link para uma página de detalhes, se houver
         },
         {
             'titulo': 'App para contagem de diagonais e montantes de Treliças',
             'setor': 'Engenharia',
             'descricao': 'Script Python para automação do processo de análise de montantes e diagonais de treliças, o processo era feito manualmente antes e com esse script foi possivel ter um ganho significativo de tempo e redução dos erros humanos.',
-            'imagem': 'projeto2.png',
+            'imagem1': 'projeto2.png',
             'link_detalhes': 'https://github.com/zuckalez0-oss/analisador-de-trelicas'
         }
     ]
