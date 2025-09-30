@@ -15,9 +15,9 @@ def projetos():
     # Dados de exemplo para seus projetos (vamos detalhar isso depois)
     meus_projetos = [
         {
-            'titulo': 'Sistema de Monitoramento de Linha de Produção',
-            'setor': 'Manufatura',
-            'descricao': 'Desenvolvimento de um sistema em Flask e MQTT para monitoramento em tempo real de KPIs de produção, resultando em 20% de redução de tempo de inatividade.',
+            'titulo': 'Ecossistema do Cadista',
+            'setor': 'Engenharia',
+            'descricao': 'Desenvolvimento de um sistema para criacao / geracao de desenhos de chapas para corte Laser / Plasma / Oxicorte.',
             'imagem': 'projeto1.png',
             'link_detalhes': '#' # Link para uma página de detalhes, se houver
         },
